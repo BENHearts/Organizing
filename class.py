@@ -35,7 +35,7 @@ class Teacher:
     def __str__(self):
         return f"Teacher Name: {self.name}, Subject: {self.subject}"
 
-# example usage
+# code to do it
 try:
     print("TEACHER INFO")
     teacher_name = input("Enter teacher's name: ")
