@@ -52,9 +52,9 @@ try:
     print("Before homework:")
     print(teacher)
     print(student)
-
+    print("After homework:")
+    
     student.homework(homework_done)
-
     final_grade = float(input(f"Enter final grade for {student.name}: "))
     teacher.give_grade(student, final_grade)
     print("Updated student info:")
